@@ -84,6 +84,7 @@ public class UnityChanController : MonoBehaviour {
                         //Unityちゃんに上方向の力を加える
                         this.myRigidbody.AddForce (this.transform.up * this.upForce);
                 }
+
         }
 
         //トリガーモードで他のオブジェクトと接触した場合の処理（追加）
